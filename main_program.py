@@ -101,7 +101,7 @@ def main():
                     mode = input("Please enter \"p\" to see the image of the song, \"a\" to have the audio preview, \"u\" to see the song in Apple Music, or \"e\" to exit: ")
                     while (mode not in PREVIEW):
                         print("Sorry, I cannot recognize this answer. I can only recognize \"p\", \"a\", \"u\" and \"e\".")
-                        visual = input("Please enter \"p\" to see the image of the song, \"a\" to have the audio preview, \"u\" to see the song in Apple Music, or \"e\" to exit: ")
+                        mode = input("Please enter \"p\" to see the image of the song, \"a\" to have the audio preview, \"u\" to see the song in Apple Music, or \"e\" to exit: ")
 
                     if mode == "p":
                         if song_info[index]["images"] is not None:
